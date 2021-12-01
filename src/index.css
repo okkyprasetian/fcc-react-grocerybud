@@ -3,3 +3,114 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  padding-top: 15vh;
+  background-color: #ffefed;
+  color: #33140e;
+}
+
+.main {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 7%;
+  border: solid 1px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.form {
+  width: 100%;
+  height: 2.5rem;
+  margin: 0 0 50px;
+}
+
+.input {
+  display: inline-block;
+  width: 80%;
+  height: 100%;
+  padding-left: 20px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  background-color: #ffefed;
+  color: #e65940;
+  font-size: 1rem;
+}
+
+.submit {
+  display: inline-block;
+  width: 20%;
+  height: 100%;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background-color: #ff7359;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+
+.lists {
+  margin-bottom: 20px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 0.3rem 1rem;
+}
+
+.list:hover {
+  background-color: #ffefed;
+}
+
+.list-right {
+  display: flex;
+  justify-content: space-between;
+  width: 2.5rem;
+}
+
+.edit {
+  color: green;
+  cursor: pointer;
+}
+
+.delete {
+  color: red;
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+.clear {
+  color: red;
+  cursor: pointer;
+}
+
+.hover:hover {
+  opacity: 0.7;
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    font-size: 18px;
+  }
+
+  .main {
+    width: 50%;
+    padding: 0 5%;
+  }
+}
